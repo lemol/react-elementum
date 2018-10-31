@@ -1,0 +1,47 @@
+{
+  "name": "react-elementum",
+  "version": "0.0.2",
+  "description": "React elements like in periodic table",
+  "main": "lib/index.js",
+  "scripts": {
+    "pub": "npm run build && npm publish",
+    "test": "echo 'No tests yet.'",
+    "start": "npm run dev",
+    "dev": "babel src --watch --out-dir ./lib",
+    "build": "babel src --out-dir ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemol/react-elementum.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Leza Lutonda <lemol-c@hotmail.com> (https://github.com/lemol)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lemol/react-elementum/issues"
+  },
+  "homepage": "https://github.com/lemol/react-elementum#readme",
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "lodash": "^4.17.11",
+    "react-adopt": "^0.6.0",
+    "react-apollo": "^2.2.4",
+    "react-powerplug": "^1.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "peerDependencies": {
+    "umi-build-dev": "^1.0.3"
+  },
+  "files": [
+    "lib",
+    "template",
+    "src"
+  ]
+}
