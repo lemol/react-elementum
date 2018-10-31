@@ -1,4 +1,4 @@
-// @flow
+import React from 'react';
 import gql from 'graphql-tag';
 import { lowerFirst, mapValues, get, isArray, findKey, values } from 'lodash';
 import { Query } from 'react-apollo';

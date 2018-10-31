@@ -1,4 +1,4 @@
-// @flow
+import React from 'react';
 import { Mutation } from 'react-apollo';
 import { adopt } from 'react-adopt';
 import { Value } from 'react-powerplug';

@@ -1,5 +1,4 @@
-// @flow
-import { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Button, Modal, Popconfirm, message } from 'antd';
 import { adopt } from 'react-adopt';
 

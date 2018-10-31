@@ -1,4 +1,4 @@
-// @flow
+import React from 'react';
 import { join } from 'lodash';
 import { Mutation } from 'react-apollo';
 import { adopt } from 'react-adopt';
