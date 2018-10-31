@@ -1,5 +1,8 @@
 {
   "presets": [
-    ["latest-node", { "target": "8" }]
+    "@babel/react"
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-object-rest-spread"
   ]
 }

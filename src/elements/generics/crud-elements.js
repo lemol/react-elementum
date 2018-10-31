@@ -1,8 +1,8 @@
 // @flow
 import { message } from 'antd';
-import itemUpdate from '../itemUpdate';
-import itemCreate from '../itemCreate';
-import itemRemove from '../itemRemove';
+import itemUpdate from '../crud/itemUpdate';
+import itemCreate from '../crud/itemCreate';
+import itemRemove from '../crud/itemRemove';
 
 export default ({
   typeName,

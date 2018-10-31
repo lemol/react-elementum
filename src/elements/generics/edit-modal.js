@@ -4,7 +4,7 @@ import {
   typeDefs as modalTypeDefs,
   defaults as modalDefaults,
   resolvers as modalResolvers,
-} from '../itemModal';
+} from '../modal/itemModal';
 
 export default ({ page }) => {
   const options = {

@@ -1,6 +1,6 @@
 // @flow
 import { message } from 'antd';
-import itemForm from '../itemForm';
+import itemForm from '../form/itemForm';
 
 export default ({ typeName, queryFields, fields, errorNotification, onError }) => {
   const errorNotificationOption =
