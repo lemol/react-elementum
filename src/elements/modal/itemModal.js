@@ -101,6 +101,11 @@ export const typeDefs = ({ name }) => {
     extend type ${options.parentName}Page {
       ${MODAL_PROP_NAME}: ${options.name}
     }
+
+    extend type Mutation {
+      ${options.openModal}(itemId: String): String
+      ${options.closeModal}: String
+    }
   `;
 };
 
