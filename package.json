@@ -1,6 +1,6 @@
 {
   "name": "react-elementum",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React elements like in periodic table",
   "main": "lib/index.js",
   "scripts": {
@@ -43,7 +43,6 @@
   },
   "files": [
     "lib",
-    "template",
     "src"
   ]
 }
