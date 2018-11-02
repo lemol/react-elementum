@@ -38,9 +38,6 @@
     "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
     "@babel/preset-react": "^7.0.0"
   },
-  "peerDependencies": {
-    "umi-build-dev": "^1.0.3"
-  },
   "files": [
     "lib",
     "src"
