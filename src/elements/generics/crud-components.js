@@ -19,7 +19,7 @@ export default ({ RemoveItem, UpdateItem, CreateItem, ItemForm, EditModal }) => 
     hide();
   };
 
-  const ConfirmRemove = ({ confirm, children, ...rest }) => (
+  const ConfirmRemove = ({ confirm, children, item, ...rest }) => (
     <Popconfirm
       title="Deseja realmente eliminar este item?"
       onConfirm={removeItem(confirm)}
