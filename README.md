@@ -1,2 +1,2 @@
 # react-elementum
-React elements like in periodic table
+React elements like in the periodic table
