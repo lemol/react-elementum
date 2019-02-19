@@ -110,7 +110,7 @@ export default ({
       try {
         const result = await mutation({
           variables: {
-            item,
+            item: value,
           },
         });
 
